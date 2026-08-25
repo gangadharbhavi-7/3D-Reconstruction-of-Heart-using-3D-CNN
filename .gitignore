@@ -1,0 +1,187 @@
+# ============================================
+# PYTHON
+# ============================================
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+pythonenv*
+*.egg-info/
+dist/
+build/
+*.egg
+pip-log.txt
+pip-delete-this-directory.txt
+.pytest_cache/
+.coverage
+htmlcov/
+.tox/
+.mypy_cache/
+.dmypy.json
+dmypy.json
+*.log
+
+# ============================================
+# JUPYTER NOTEBOOKS
+# ============================================
+.ipynb_checkpoints/
+*.ipynb_checkpoints
+*.ipynb
+!cardiac_reconstruction.ipynb  # Keep main notebook
+
+# ============================================
+# MEDICAL IMAGING DATA (LARGE FILES)
+# ============================================
+# NIfTI files
+*.nii
+*.nii.gz
+*.hdr
+*.img
+*.mgh
+*.mgz
+
+# DICOM
+*.dcm
+*.ima
+*.dicom
+
+# META Image
+*.mha
+*.mhd
+
+# Other medical formats
+*.vtk
+*.vti
+*.stl
+*.ply
+*.obj
+*.off
+
+# ============================================
+# PROJECT-SPECIFIC (AUTO-GENERATED)
+# ============================================
+# Dataset folders
+Dataset/
+ct_train/
+mr_train/
+mr_test/
+
+# Output folders
+uploads/
+output/
+output_ultra_promax_plus/
+renders/
+reports/
+
+# Temporary files
+/tmp/
+*.tmp
+*.temp
+
+# 3D models
+*.obj
+*.mtl
+*.stl
+*.ply
+
+# Reports
+*.pdf
+*.docx
+
+# Images
+*.png
+*.jpg
+*.jpeg
+*.tif
+*.tiff
+
+# ============================================
+# IDE & EDITOR
+# ============================================
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+.Trash-*
+Thumbs.db
+desktop.ini
+*.sublime-*
+*.code-workspace
+
+# ============================================
+# ENVIRONMENT & SECRETS
+# ============================================
+.env
+.env.local
+.env.*.local
+*.pem
+*.key
+*.crt
+credentials.json
+token.json
+secrets.json
+service-account.json
+client_secret_*.json
+
+# ============================================
+# VERSION CONTROL
+# ============================================
+.git/
+.gitignore
+.gitattributes
+
+# ============================================
+# MACHINE LEARNING MODELS
+# ============================================
+*.h5
+*.hdf5
+*.pb
+*.pkl
+*.joblib
+*.pt
+*.pth
+*.onnx
+*.tflite
+
+# ============================================
+# LOGS & CACHE
+# ============================================
+logs/
+*.log
+cache/
+*.cache
+*.pycache
+
+# ============================================
+# COLAB
+# ============================================
+*.colab
+.colab/
+sample_data/
+
+# ============================================
+# DEPLOYMENT
+# ============================================
+Dockerfile
+docker-compose.yml
+.dockerignore
+*.zip
+*.tar.gz
+*.rar
+
+# ============================================
+# MISCELLANEOUS
+# ============================================
+*.bak
+*.backup
+*.old
+*.orig
+*.orig.*
